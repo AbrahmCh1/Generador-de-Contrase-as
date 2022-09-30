@@ -3,7 +3,7 @@
 credentials will be empty for default, you can set up in "keygen.py" 
 to register (Two users) if you register only one, you have to remove "<<<<<<stored_email2, stored_pwd2>>>>>>" from the code 
 
-"
+
 def login():
     email = input("Ingresa tu usuario: ")
     pwd = input("Ingresa tu contraseña: ")
@@ -20,4 +20,4 @@ def login():
             main1()
 
         else:
-            print("Datos erróneos! \n")"
+            print("Datos erróneos! \n")
